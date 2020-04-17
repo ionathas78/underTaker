@@ -8,15 +8,19 @@ A note taker app using a JSON database sounds pretty basic, but the exercise was
 ## User Story
 
 ```
-AS A 
-I WANT 
-SO THAT 
+AS A User with Memory Problems that RAM won't fix
+I WANT a Note Program of my own making
+SO THAT I can twiddle the things I don't like about it
 ```
 
 ```
-GIVEN THAT 
-WHEN I 
-THEN 
+GIVEN THAT I visit the web page
+WHEN I close the browser and return
+THEN I want my notes to persist
+WHEN I save a new note
+THEN I want it to be added to the list
+WHEN I delete a note
+THEN I want it to be removed from the DB file
 ```
 
 ## Graphic
@@ -26,13 +30,12 @@ THEN
 * [Technologies](#Technologies)
 * [Getting Started](#Getting)
 * [Usage](#Usage)
-* [Project Status](#Project)
-* [Frequently Asked Questions](#FAQ)
 * [Questions](#Additional)
-* [Contributing](#Contributing)
 * [License](#License)
-## Technologies
 
+## Technologies
+node.js\
+express
 
 ## Getting Started
 ```
@@ -49,6 +52,8 @@ node server
 ```
 
 Starting the server on localhost is as simple as running server.js.
+![Project Usage Image 0](./public/assets/underTaker_Server_Screenshot.jpg)
+
 After that, you can hit the page at port 9733.
 
 ```
@@ -57,27 +62,18 @@ localhost:9733
 >  in your preferred web browser.
 ```
 
-![Project Usage Image 0](underTaker_Server_Screenshot.jpg)
-![Project Usage Image 1](underTaker_Main_Screenshot.jpg)
-![Project Usage Image 2](underTaker_Notes_ScreenShot.jpg)
+![Project Usage Image 1](./public/assets/underTaker_Main_Screenshot.jpg)
+![Project Usage Image 2](./public/assets/underTaker_Notes_ScreenShot.jpg)
 
-## Project Status
-
-
-## FAQ
-- 
-- 
-- 
 
 ## Additional Questions
+Hit me up on email or DM me with questions.
 
-
-## Contributing
-Contact us for guidelines on submitting contributions.
 ## License
 This project is licensed under the The MIT License.
 
 
-![User Avatar Picture](https://avatars1.githubusercontent.com/u/61706660?v=4)  ionathas78
+![User Avatar Picture](https://avatars1.githubusercontent.com/u/61706660?v=4)  
+### ionathas78
 
 This file generated on 4/17/2020 by goodReadMeGenerator, copyright 2020 Jonathan Andrews
