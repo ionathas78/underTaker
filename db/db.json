@@ -1,1 +1,30 @@
-[{"title":"Test Title","text":"Test text"}]
+[
+  {
+    "id": 2,
+    "title": "New Item",
+    "text": "New text",
+    "tags": [
+      "tag0",
+      "tagX",
+      "tagY"
+    ],
+    "importance": 1
+  },
+  {
+    "id": 4,
+    "title": "My Note",
+    "text": "Text of My Note",
+    "importance": 0,
+    "tags": [
+      "tagA",
+      "tagB"
+    ]
+  },
+  {
+    "id": -1,
+    "title": "Test Note",
+    "text": "My Test Note\n",
+    "importance": 0,
+    "tags": []
+  }
+]
