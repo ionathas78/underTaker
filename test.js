@@ -63,8 +63,6 @@ function writeDB2() {
             console.log(err);
         } else {
             let jsonData = JSON.parse(data);
-            // let jsonData = data;
-            // console.log(jsonData);
 
             if (jsonData.find(item => item.id == newNote.id)) {
                 let itemID = -1;
@@ -86,7 +84,4 @@ function writeDB2() {
     });
 };
 
-// 
-// readDB();
-// writeDB();
 writeDB2();

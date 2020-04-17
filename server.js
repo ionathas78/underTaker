@@ -161,16 +161,17 @@ app.post("/api/notes", function(req, res) {
         } else {
             let jsonData = JSON.parse(data);
 
-            if (jsonData.find(item => item.id == id)) {
-                let itemID = -1;
-                jsonData.forEach(element => {
-                    if (element.id > itemID) {
-                        itemID = element.id;
+            let newId = -1;
+            if (jsonData[0]) {
+                for (let i = 0; i < jsonData.length; i++) {
+                    let thisId = jsonData[i].id;
+                    if (thisId) {
+                        newId = Math.max(newId, parseInt(thisId));
                     };
-                });
-                newNote.id = itemID + 1;
+                };
             };
-
+            newNote.id = newId + 1;
+            
             jsonData.push(newNote.toJSON());
             let jsonToString = JSON.stringify(jsonData, null, 2);
 
@@ -196,12 +197,6 @@ app.delete("/api/notes/:id", function(req, res) {
             let jsonData = JSON.parse(data);
 
             jsonData = jsonData.filter(item => item.id != noteId);
-            // let filteredData = [];
-            // jsonData.forEach(item => {
-            //     if (item.id != noteId) {
-            //         filteredData.push(item);
-            //     };
-            // });
             let jsonToString = JSON.stringify(jsonData, null, 2);
 
             fs.writeFile(fileName, jsonToString, () => {
