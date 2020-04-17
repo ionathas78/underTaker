@@ -62,8 +62,8 @@ localhost:9733
 >  in your preferred web browser.
 ```
 
-![Project Usage Image 1](./public/assets/underTaker_Main_Screenshot.jpg)
-![Project Usage Image 2](./public/assets/underTaker_Notes_ScreenShot.jpg)
+![Project Usage Image 1](./public/assets/underTaker_Main_ScreenShot.jpg)
+![Project Usage Image 2](./public/assets/underTaker_Notes_Screenshot.jpg)
 
 
 ## Additional Questions
