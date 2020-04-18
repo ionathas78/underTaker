@@ -23,7 +23,7 @@ WHEN I delete a note
 THEN I want it to be removed from the DB file
 ```
 
-## Graphic
+## Graphic*
 ![Project Image 0](./public/assets/underTaker_Usage_Screenshot.jpg)
 
 ## Table of Contents
