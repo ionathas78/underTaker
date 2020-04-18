@@ -24,7 +24,7 @@ THEN I want it to be removed from the DB file
 ```
 
 ## Graphic
-![Project Image 0](./public/assets/underTaker_Usage_Screenshot.jpg)(https://genius.com/Limahl-the-neverending-story-lyrics)
+![Project Image 0](./public/assets/underTaker_Usage_Screenshot.jpg)
 
 ## Table of Contents
 * [Technologies](#Technologies)
